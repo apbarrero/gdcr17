@@ -10,9 +10,9 @@ describe('Grid', ()=>{
    });
 
     it('should throw exception with invalid size', ()=>{
-      expect(new Grid(-2, 0)).toThrowError();
-      expect(new Grid(2, -2)).toThrowError();
-      expect(new Grid(-1, 0)).toThrowError();
+      expect(new Grid(-2, 0)).toThrowError(Error);
+      expect(new Grid(2, -2)).toThrowError(Error);
+      expect(new Grid(-1, 0)).toThrowError(Error);
     });
 
 });
