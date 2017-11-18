@@ -15,4 +15,13 @@ describe('Grid', ()=>{
       expect(()=>new Grid(-1, 0)).toThrowError(Error);
     });
 
+   describe('getStatus', ()=>{
+      let width = 2, height = 3;
+      let g = new Grid(width, height);
+      it('returns dead cells for uninited grid', ()=>{
+         for (let i = 0; i < width; i++)
+            for (let j = 0; j < height; j++)
+               expect(g.getStatus(i, j)).toBeFalsy();
+      });
+   });
 });

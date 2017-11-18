@@ -19,6 +19,9 @@ class Grid {
         return this.grid[0].length
     }
 
+   getStatus(x, y) {
+      return true;
+   }
 }
 
 module.exports = {Grid};
