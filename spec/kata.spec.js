@@ -8,4 +8,10 @@ describe('Grid', ()=>{
       expect(g.getWidth()).toBe(2);
       expect(g.getHeight()).toBe(3);
    });
+
+    it('should throw exception with invalid size', ()=>{
+      let g = new Grid(0, 0);
+      expect(g.getWidth()).toThrowError();
+    });
+
 });
