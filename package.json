@@ -1,0 +1,27 @@
+{
+  "name": "gdcr17",
+  "version": "1.0.0",
+  "description": "Global day of code retreat 2017",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apbarrero/gdcr17.git"
+  },
+  "keywords": [
+    "gdcr17",
+    "conway",
+    "game-of-life"
+  ],
+  "author": "Antonio Pérez Barrero / David Oliva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/apbarrero/gdcr17/issues"
+  },
+  "homepage": "https://github.com/apbarrero/gdcr17#readme",
+  "devDependencies": {
+    "jasmine": "^2.8.0"
+  }
+}
