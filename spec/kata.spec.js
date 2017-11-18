@@ -23,5 +23,10 @@ describe('Grid', ()=>{
             for (let j = 0; j < height; j++)
                expect(g.getStatus(i, j)).toBeFalsy();
       });
+
+       it('should be an alive cell', ()=> {
+           expect(g.getStatus(2, 2)).toBeTruthy();
+       });
+
    });
 });
