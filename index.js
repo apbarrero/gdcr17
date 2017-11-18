@@ -15,6 +15,10 @@ class Grid {
             this.grid[i].fill(false);
     }
 
+    initRandomGrid() {
+
+    }
+
     getHeight() {
         return this.grid.length
     }
@@ -26,6 +30,7 @@ class Grid {
     getStatus(x, y) {
         return this.grid[x][y];
     }
+
 }
 
 module.exports = {Grid};
